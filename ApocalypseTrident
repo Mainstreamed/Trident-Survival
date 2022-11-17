@@ -373,7 +373,15 @@ Options.SPFVVV:OnChanged(function(t)
                 game:GetService("ReplicatedStorage").HandModels.USP["Meshes/USP_Body"].Material = Enum.Material.ForceField 
             elseif ggggggg1 == "Neon" then
                 -----HMAR 
-                game:GetService("ReplicatedStorage").HandModels.HMAR.Barrel.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Body.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Bolt.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Stock.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Grip.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Mag.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.Muzzle.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.IronSights.ADS.Material = Enum.Material.Neon game:GetService("ReplicatedStorage").HandModels.HMAR.IronSights.Union.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Barrel.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Body.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Bolt.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Stock.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Grip.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Mag.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.Muzzle.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.IronSights.ADS.Material = Enum.Material.Neon 
+                game:GetService("ReplicatedStorage").HandModels.HMAR.IronSights.Union.Material = Enum.Material.Neon 
                 -----PipeSMG 
                 game:GetService("ReplicatedStorage").HandModels.PipeSMG.IronSights.ADS.Material = Enum.Material.Neon 
                 game:GetService("ReplicatedStorage").HandModels.PipeSMG.IronSights.Union.Material = Enum.Material.Neon 
