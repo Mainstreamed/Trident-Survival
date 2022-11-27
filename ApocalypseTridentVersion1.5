@@ -530,16 +530,20 @@ fovcircle.Position = Vector2.new(CurrentCamera.ViewportSize.X / 2, CurrentCamera
 
 function getClosestPlayerToPlayer()
     local closestPlayer = nil;
+	local Old_Distance = math.huge
     local shortestDistance = ASSettings["AimDis"];
 	for i, v in pairs(workspace:GetChildren()) do
 		if v:IsA("Model") and v:FindFirstChild("Humanoid") and v.Name then
 			if v.Humanoid.Health ~= 0 and v.PrimaryPart ~= nil and v:FindFirstChild("Head") then
+
 				local pos = Cameras.WorldToViewportPoint(Cameras, v.PrimaryPart.Position)
 				local magnitude = (_Character.character.Middle.Position - v.PrimaryPart.Position).magnitude
+				
 				local fovmagnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude
 				
-				if magnitude < shortestDistance then
+				if magnitude < shortestDistance and fovmagnitude < Old_Distance then
 				    if fovmagnitude < 120 then
+						Old_Distance = fovmagnitude
 				        closestPlayer = v
 					    shortestDistance = magnitude
 				    end
