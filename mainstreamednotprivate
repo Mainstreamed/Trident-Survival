@@ -1,4 +1,5 @@
 if _G.Mainstreamed_Loaded then
+    print('Mainstreamed Already Injected')
     return
 end
 _G.Mainstreamed_Loaded = true
