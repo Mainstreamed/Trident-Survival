@@ -1,3 +1,7 @@
+_G.Mainstreamed_Injected = true
+if _G.Mainstreamed_Injected then
+    return
+end
 -- // Protected by luaGuard - Security Level premium
 
 -- This file was generated using Luraph Obfuscator v13.5.9
