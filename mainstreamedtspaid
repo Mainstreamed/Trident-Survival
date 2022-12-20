@@ -1,7 +1,7 @@
 if _G.Mainstreamed_Loaded then
     return
 end
-_G.Mainstreamed_Loaded
+_G.Mainstreamed_Loaded = true
 
 -- // Protected by luaGuard - Security Level premium
 
