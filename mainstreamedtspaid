@@ -1,0 +1,5 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Wrong loadstring",
+    Text = "Check #how-to-use channel for the updated loadstring",
+    Duration = 3,
+})
